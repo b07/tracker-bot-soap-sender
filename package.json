@@ -1,0 +1,16 @@
+{
+  "name": "tracker-bot-soap-sender",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "dobri-dobrev",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.74.0",
+    "xml2js": "^0.4.17",
+    "xmlbuilder": "^8.2.2"
+  }
+}
