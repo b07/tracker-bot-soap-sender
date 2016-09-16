@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <soapenv:Header>
+      <ebl:RequesterCredentials xmlns:ebl="urn:ebay:apis:eBLBaseComponents" xmlns:ns="urn:ebay:apis:eBLBaseComponents" soapenv:mustUnderstand="0">
+         <ebl:NotificationSignature>nVrjyb0Ob6Jq7vcuqjsl2g==</ebl:NotificationSignature>
+      </ebl:RequesterCredentials>
+   </soapenv:Header>
+   <soapenv:Body>
+      <GetItemTransactionsResponse xmlns="urn:ebay:apis:eBLBaseComponents">
+         <Timestamp>2016-09-15T08:08:31.085Z</Timestamp>
+         <Ack>Success</Ack>
+         <CorrelationID>758863186981</CorrelationID>
+         <Build>E983_CORE_APIXO_18098702_R1</Build>
+         <Version>983</Version>
+         <NotificationEventName>FixedPriceTransaction</NotificationEventName>
+         <RecipientUserID>household_goods1</RecipientUserID>
+         <EIASToken>nY+sHZ2PrBmdj6wVnY+sEZ2PrA2dj6AAk4KhAJOKog2dj6x9nY+seQ==</EIASToken>
+         <TotalNumberOfPages>1</TotalNumberOfPages>
+         <PaginationResult>
+            <TotalNumberOfEntries>1</TotalNumberOfEntries>
+         </PaginationResult>
+         <HasMoreTransactions>false</HasMoreTransactions>
+         <TransactionsPerPage>100</TransactionsPerPage>
+         <PageNumber>1</PageNumber>
+         <ReturnedTransactionCountActual>1</ReturnedTransactionCountActual>
+         <Item>
+            <AutoPay>true</AutoPay>
+            <BuyItNowPrice currencyID="USD">0.0</BuyItNowPrice>
+            <Currency>USD</Currency>
+            <ItemID>222190401415</ItemID>
+            <ListingDetails>
+               <StartTime>2016-07-18T07:46:51.000Z</StartTime>
+               <EndTime>2016-09-16T07:46:51.000Z</EndTime>
+               <ViewItemURL>http://cgi.ebay.com/ws/eBayISAPI.dll?ViewItem&amp;Item=222190401415</ViewItemURL>
+               <ViewItemURLForNaturalSearch>http://cgi.ebay.com/Plano-Protector-Four-Pistol-Gun-Hard-Case-Durable-Handgun-Storage-Heavy-Duty-New?item=222190401415&amp;category=0&amp;cmd=ViewItem</ViewItemURLForNaturalSearch>
+            </ListingDetails>
+            <ListingType>StoresFixedPrice</ListingType>
+            <PaymentMethods>PayPal</PaymentMethods>
+            <PrimaryCategory>
+               <CategoryID>73938</CategoryID>
+            </PrimaryCategory>
+            <PrivateListing>false</PrivateListing>
+            <Quantity>79</Quantity>
+            <SecondaryCategory>
+               <CategoryID>0</CategoryID>
+            </SecondaryCategory>
+            <Seller>
+               <AboutMePage>false</AboutMePage>
+               <Email>vallewdub@gmail.com</Email>
+               <EIASToken>nY+sHZ2PrBmdj6wVnY+sEZ2PrA2dj6AAk4KhAJOKog2dj6x9nY+seQ==</EIASToken>
+               <FeedbackScore>904</FeedbackScore>
+               <FeedbackPrivate>false</FeedbackPrivate>
+               <PositiveFeedbackPercent>99.2</PositiveFeedbackPercent>
+               <FeedbackRatingStar>Purple</FeedbackRatingStar>
+               <IDVerified>false</IDVerified>
+               <eBayGoodStanding>true</eBayGoodStanding>
+               <NewUser>false</NewUser>
+               <RegistrationDate>2015-11-18T17:19:00.000Z</RegistrationDate>
+               <Site>US</Site>
+               <Status>Confirmed</Status>
+               <UserID>household_goods1</UserID>
+               <UserIDChanged>false</UserIDChanged>
+               <UserIDLastChanged>2016-01-28T12:57:38.000Z</UserIDLastChanged>
+               <SellerInfo>
+                  <VATStatus>VATTax</VATStatus>
+                  <AllowPaymentEdit>true</AllowPaymentEdit>
+                  <CheckoutEnabled>true</CheckoutEnabled>
+                  <CIPBankAccountStored>false</CIPBankAccountStored>
+                  <GoodStanding>true</GoodStanding>
+                  <LiveAuctionAuthorized>false</LiveAuctionAuthorized>
+                  <MerchandizingPref>OptIn</MerchandizingPref>
+                  <QualifiesForB2BVAT>false</QualifiesForB2BVAT>
+                  <StoreOwner>true</StoreOwner>
+                  <StoreURL>http://www.stores.ebay.com/id=1430083831</StoreURL>
+                  <SafePaymentExempt>false</SafePaymentExempt>
+                  <TopRatedSeller>true</TopRatedSeller>
+               </SellerInfo>
+            </Seller>
+            <SellingStatus>
+               <ConvertedCurrentPrice currencyID="USD">14.99</ConvertedCurrentPrice>
+               <CurrentPrice currencyID="USD">14.99</CurrentPrice>
+               <QuantitySold>72</QuantitySold>
+               <ListingStatus>Active</ListingStatus>
+            </SellingStatus>
+            <Site>US</Site>
+            <StartPrice currencyID="USD">14.99</StartPrice>
+            <Title>Plano Protector Four Pistol Gun Hard Case Durable Handgun Storage Heavy Duty New</Title>
+            <GetItFast>false</GetItFast>
+            <IntegratedMerchantCreditCardEnabled>false</IntegratedMerchantCreditCardEnabled>
+            <ConditionID>1000</ConditionID>
+            <ConditionDisplayName>New</ConditionDisplayName>
+         </Item>
+         <TransactionArray>
+            <Transaction>
+               <AmountPaid currencyID="USD">14.99</AmountPaid>
+               <AdjustmentAmount currencyID="USD">0.0</AdjustmentAmount>
+               <Buyer>
+                  <ConvertedAdjustmentAmount currencyID="USD">0.0</ConvertedAdjustmentAmount>
+                  <AboutMePage>false</AboutMePage>
+                  <EIASToken>nY+sHZ2PrBmdj6wVnY+sEZ2PrA2dj6AEkoOlCZGKqASdj6x9nY+seQ==</EIASToken>
+                  <Email>horsesrule9@yahoo.com</Email>
+                  <FeedbackScore>178</FeedbackScore>
+                  <PositiveFeedbackPercent>100.0</PositiveFeedbackPercent>
+                  <FeedbackPrivate>false</FeedbackPrivate>
+                  <FeedbackRatingStar>Turquoise</FeedbackRatingStar>
+                  <IDVerified>false</IDVerified>
+                  <Site>US</Site>
+                  <Status>Confirmed</Status>
+                  <eBayGoodStanding>true</eBayGoodStanding>
+                  <UserID>smakie1</UserID>
+                  <RegistrationDate>2010-08-12T20:08:23.000Z</RegistrationDate>
+                  <UserIDChanged>false</UserIDChanged>
+                  <UserIDLastChanged>2010-08-12T20:08:22.000Z</UserIDLastChanged>
+                  <VATStatus>NoVATTax</VATStatus>
+                  <BuyerInfo>
+                     <NewUser>false</NewUser>
+                     <ShippingAddress>
+                        <Name>Connie Williams</Name>
+                        <Street1>5617 Ball Ground rd</Street1>
+                        <CityName>Ball Ground</CityName>
+                        <StateOrProvince>GA</StateOrProvince>
+                        <Country>US</Country>
+                        <CountryName>United States</CountryName>
+                        <Phone>(770) 324-7298</Phone>
+                        <PostalCode>30107-5023</PostalCode>
+                        <AddressID>1792105335022</AddressID>
+                        <AddressOwner>eBay</AddressOwner>
+                        <AddressUsage>Shipping</AddressUsage>
+                     </ShippingAddress>
+                     <UserAnonymized>false</UserAnonymized>
+                  </BuyerInfo>
+                  <StaticAlias>smakie_ht5199sfzx@members.ebay.com</StaticAlias>
+                  <UserFirstName>Connie</UserFirstName>
+                  <UserLastName>Williams</UserLastName>
+               </Buyer>
+               <ShippingDetails>
+                  <ChangePaymentInstructions>true</ChangePaymentInstructions>
+                  <PaymentEdited>true</PaymentEdited>
+                  <SalesTax>
+                     <SalesTaxPercent>0.0</SalesTaxPercent>
+                     <ShippingIncludedInTax>false</ShippingIncludedInTax>
+                     <SalesTaxAmount currencyID="USD">0.0</SalesTaxAmount>
+                  </SalesTax>
+                  <ShippingServiceOptions>
+                     <ShippingService>ShippingMethodExpress</ShippingService>
+                     <ShippingServiceCost currencyID="USD">0.0</ShippingServiceCost>
+                     <ShippingServiceAdditionalCost currencyID="USD">0.0</ShippingServiceAdditionalCost>
+                     <ShippingServicePriority>1</ShippingServicePriority>
+                     <ExpeditedService>false</ExpeditedService>
+                     <ShippingTimeMax>4</ShippingTimeMax>
+                     <ShippingTimeMin>1</ShippingTimeMin>
+                  </ShippingServiceOptions>
+                  <ShippingType>Flat</ShippingType>
+                  <SellingManagerSalesRecordNumber>2407</SellingManagerSalesRecordNumber>
+                  <ThirdPartyCheckout>false</ThirdPartyCheckout>
+                  <TaxTable />
+                  <GetItFast>false</GetItFast>
+                  <ExcludeShipToLocation>Alaska/Hawaii</ExcludeShipToLocation>
+                  <ExcludeShipToLocation>US Protectorates</ExcludeShipToLocation>
+                  <ExcludeShipToLocation>APO/FPO</ExcludeShipToLocation>
+                  <ExcludeShipToLocation>Africa</ExcludeShipToLocation>
+                  <ExcludeShipToLocation>Asia</ExcludeShipToLocation>
+                  <ExcludeShipToLocation>Central America and Caribbean</ExcludeShipToLocation>
+                  <ExcludeShipToLocation>Europe</ExcludeShipToLocation>
+                  <ExcludeShipToLocation>Middle East</ExcludeShipToLocation>
+                  <ExcludeShipToLocation>North America</ExcludeShipToLocation>
+                  <ExcludeShipToLocation>Oceania</ExcludeShipToLocation>
+                  <ExcludeShipToLocation>Southeast Asia</ExcludeShipToLocation>
+                  <ExcludeShipToLocation>South America</ExcludeShipToLocation>
+                  <ExcludeShipToLocation>PO Box</ExcludeShipToLocation>
+               </ShippingDetails>
+               <ConvertedAmountPaid currencyID="USD">14.99</ConvertedAmountPaid>
+               <ConvertedTransactionPrice currencyID="USD">14.99</ConvertedTransactionPrice>
+               <CreatedDate>2016-09-15T08:08:24.000Z</CreatedDate>
+               <DepositType>None</DepositType>
+               <QuantityPurchased>1</QuantityPurchased>
+               <Status>
+                  <eBayPaymentStatus>NoPaymentFailure</eBayPaymentStatus>
+                  <CheckoutStatus>CheckoutComplete</CheckoutStatus>
+                  <LastTimeModified>2016-09-15T08:08:25.000Z</LastTimeModified>
+                  <PaymentMethodUsed>PayPal</PaymentMethodUsed>
+                  <CompleteStatus>Complete</CompleteStatus>
+                  <BuyerSelectedShipping>true</BuyerSelectedShipping>
+                  <PaymentHoldStatus>None</PaymentHoldStatus>
+                  <IntegratedMerchantCreditCardEnabled>false</IntegratedMerchantCreditCardEnabled>
+                  <InquiryStatus>NotApplicable</InquiryStatus>
+               </Status>
+               <ReturnStatus>NotApplicable</ReturnStatus>
+               <TransactionID>1791747662012</TransactionID>
+               <TransactionPrice currencyID="USD">14.99</TransactionPrice>
+               <BestOfferSale>false</BestOfferSale>
+               <ExternalTransaction>
+                  <ExternalTransactionID>6LV66293AD501542W</ExternalTransactionID>
+                  <ExternalTransactionTime>2016-09-15T08:08:22.000Z</ExternalTransactionTime>
+                  <FeeOrCreditAmount currencyID="USD">0.88</FeeOrCreditAmount>
+                  <PaymentOrRefundAmount currencyID="USD">14.99</PaymentOrRefundAmount>
+                  <ExternalTransactionStatus>Succeeded</ExternalTransactionStatus>
+               </ExternalTransaction>
+               <ShippingServiceSelected>
+                  <ShippingService>ShippingMethodExpress</ShippingService>
+                  <ShippingServiceCost currencyID="USD">0.0</ShippingServiceCost>
+                  <ShippingPackageInfo>
+                     <EstimatedDeliveryTimeMin>2016-09-21T07:00:00.000Z</EstimatedDeliveryTimeMin>
+                     <EstimatedDeliveryTimeMax>2016-09-21T07:00:00.000Z</EstimatedDeliveryTimeMax>
+                  </ShippingPackageInfo>
+               </ShippingServiceSelected>
+               <PaidTime>2016-09-15T08:08:24.000Z</PaidTime>
+               <ContainingOrder>
+                  <OrderID>222190401415-1791747662012</OrderID>
+                  <OrderStatus>Completed</OrderStatus>
+                  <CancelStatus>NotApplicable</CancelStatus>
+                  <ExtendedOrderID>222190401415-1791747662012!722517027018</ExtendedOrderID>
+                  <ContainseBayPlusTransaction>false</ContainseBayPlusTransaction>
+               </ContainingOrder>
+               <FinalValueFee currencyID="USD">1.35</FinalValueFee>
+               <Platform>eBay</Platform>
+               <TransactionSiteID>US</TransactionSiteID>
+               <PayPalEmailAddress>vallewdub@gmail.com</PayPalEmailAddress>
+               <BuyerGuaranteePrice currencyID="USD">20000.0</BuyerGuaranteePrice>
+               <ActualShippingCost currencyID="USD">0.0</ActualShippingCost>
+               <ActualHandlingCost currencyID="USD">0.0</ActualHandlingCost>
+               <OrderLineItemID>222190401415-1791747662012</OrderLineItemID>
+               <IsMultiLegShipping>false</IsMultiLegShipping>
+               <IntangibleItem>false</IntangibleItem>
+               <MonetaryDetails>
+                  <Payments>
+                     <Payment>
+                        <PaymentStatus>Succeeded</PaymentStatus>
+                        <Payer type="eBayUser">smakie1</Payer>
+                        <Payee type="eBayUser">household_goods1</Payee>
+                        <PaymentTime>2016-09-15T08:08:22.000Z</PaymentTime>
+                        <PaymentAmount currencyID="USD">14.99</PaymentAmount>
+                        <ReferenceID type="ExternalTransactionID">6LV66293AD501542W</ReferenceID>
+                        <FeeOrCreditAmount currencyID="USD">0.88</FeeOrCreditAmount>
+                     </Payment>
+                  </Payments>
+               </MonetaryDetails>
+               <ExtendedOrderID>222190401415-1791747662012!722517027018</ExtendedOrderID>
+               <eBayPlusTransaction>false</eBayPlusTransaction>
+            </Transaction>
+         </TransactionArray>
+         <PayPalPreferred>false</PayPalPreferred>
+      </GetItemTransactionsResponse>
+   </soapenv:Body>
+</soapenv:Envelope>
