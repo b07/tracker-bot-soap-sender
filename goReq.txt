@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GetOrdersRequest xmlns="urn:ebay:apis:eBLBaseComponents">
+  <RequesterCredentials>
+
+  </RequesterCredentials>
+  <CreateTimeFrom>2016-10-28T20:34:44.000Z</CreateTimeFrom>
+  <CreateTimeTo>2016-10-31T20:34:44.000Z</CreateTimeTo>
+  <OrderRole>Seller</OrderRole>
+  <OrderStatus>Completed</OrderStatus>
+  <OutputSelector>OrderId</OutputSelector>
+</GetOrdersRequest>
