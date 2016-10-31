@@ -11,8 +11,8 @@ fs.readFile('formattedBody.txt', 'utf8', function (err,data) {
   }
   //console.log(data);
   var requestOptions = {
-      url: 'https://pure-fortress-41479.herokuapp.com/notify',
-      //url: "http://localhost:3000/notify",
+      //url: 'https://pure-fortress-41479.herokuapp.com/notify',
+      url: "http://localhost:3000/notify",
       body: data,
       headers: {
           "content-type": "text/xml;charset=utf-8",
