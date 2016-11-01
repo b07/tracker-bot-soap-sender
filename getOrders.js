@@ -29,7 +29,7 @@ fs.readFile('goReq.txt', 'utf8', function (err,data) {
         // console.log(result);
         var orders = result.GetOrdersResponse.OrderArray[0].Order;
         for (var i = orders.length - 1; i >= 0; i--) {
-          console.log(parseOrder(orders[i]));
+          console.log(parseOrderFromOrderArray(orders[i]));
         };
         // console.log(parseOrder(order));
          // console.dir(result.GetOrdersResponse.OrderArray[0].Order[0]);
@@ -39,13 +39,12 @@ fs.readFile('goReq.txt', 'utf8', function (err,data) {
 });
 
 
-function parseOrder(order) {
+function parseOrderFromOrderArray(order) {
   var out = {};
   out.orderId = order.OrderID[0];
   out.itemId = order.TransactionArray[0].Transaction[0].Item[0] .ItemID[0];
   out.name = order.ShippingAddress[0].Name[0];
   out.EIASToken = order.EIASToken[0];
-  //URL!!
   out.street = order.ShippingAddress[0].Street1[0];
   out.receive_time = Math.floor(Date.now()/1000);
   out.item_title = order.TransactionArray[0].Transaction[0].Item[0] .Title[0];
