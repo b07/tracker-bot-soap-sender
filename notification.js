@@ -12,7 +12,9 @@ fs.readFile('formattedBody.txt', 'utf8', function (err,data) {
   //console.log(data);
   var requestOptions = {
       //url: 'https://pure-fortress-41479.herokuapp.com/notify',
+
       url: "http://localhost:3000/notify",
+
       body: data,
       headers: {
           "content-type": "text/xml;charset=utf-8",
@@ -83,22 +85,22 @@ shippingAddress.ele('AddressOwner').text('eBay');
 shippingAddress.ele('AddressUsage').text('Shipping');
 
 
-var a = envelope.doc().end({pretty: true});
-//console.log(a);
-var requestOptions = {
-    url: 'https://fast-eyrie-81175.herokuapp.com/notify',
-    // url: "https://api.sandbox.ebay.com/ws/api.dll",
-    body: a,
-    headers: {
-        'X-EBAY-API-SITEID': 0,
-        'X-EBAY-API-COMPATIBILITY-LEVEL': 967,
-        'X-EBAY-API-CALL-NAME': 'GetNotificationPreferences'
-    }
-};
+// var a = envelope.doc().end({pretty: true});
+// //console.log(a);
+// var requestOptions = {
+//     url: 'https://fast-eyrie-81175.herokuapp.com/notify',
+//     // url: "https://api.sandbox.ebay.com/ws/api.dll",
+//     body: a,
+//     headers: {
+//         'X-EBAY-API-SITEID': 0,
+//         'X-EBAY-API-COMPATIBILITY-LEVEL': 967,
+//         'X-EBAY-API-CALL-NAME': 'GetNotificationPreferences'
+//     }
+// };
 
 
 
-var buffer = "";
+// var buffer = "";
 
 // var req = request.post( requestOptions, function( error, response, body )    {
 // 	console.log("BOREC");
@@ -107,6 +109,3 @@ var buffer = "";
 // 	    console.dir(result.GetNotificationPreferencesResponse.UserDeliveryPreferenceArray[0].NotificationEnable);
 // 	});
 // });
-
-
-
