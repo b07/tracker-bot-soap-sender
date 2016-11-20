@@ -26,7 +26,7 @@ fs.readFile('goReq.txt', 'utf8', function (err,data) {
      console.log("BOREC");
      console.log(response.statusCode);
      parseString(body, function (err, result) {
-         console.dir(result.GetOrdersResponse.OrderArray[0].Order);
+         console.dir(result.GetOrdersResponse.OrderArray[0].Order.length);
      });
   });
 });
