@@ -5,7 +5,8 @@ var xmlbuilder = require('xmlbuilder');
 var parseString = require('xml2js').parseString;
 
 
-var token = process.env.CLIENT_TOKEN;
+// var token = process.env.CLIENT_TOKEN;
+var token = "blah blah";
 
 
 
@@ -20,7 +21,8 @@ method.ele('PreferenceLevel').txt('User');
 var a = method.doc().end({pretty: true});
 console.log(a);
 var requestOptions = {
-    url: 'https://fast-eyrie-81175.herokuapp.com/notify',
+    url: 'localhost:3000/notify',
+    // url: 'https://fast-eyrie-81175.herokuapp.com/notify',
     // url: "https://api.sandbox.ebay.com/ws/api.dll",
     body: a,
     headers: {
