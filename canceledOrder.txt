@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GetOrderTransactionsResponse 
+    xmlns="urn:ebay:apis:eBLBaseComponents">
+    <Timestamp>2016-11-30T22:32:49.775Z</Timestamp>
+    <Ack>Success</Ack>
+    <Version>991</Version>
+    <Build>E991_CORE_APIXO_18184937_R1</Build>
+    <OrderArray>
+        <Order>
+            <OrderID>222293262267-1827097822012</OrderID>
+            <OrderStatus>Cancelled</OrderStatus>
+            <AdjustmentAmount currencyID="USD">-15.8</AdjustmentAmount>
+            <AmountPaid currencyID="USD">0.0</AmountPaid>
+            <AmountSaved currencyID="USD">0.0</AmountSaved>
+            <CheckoutStatus>
+                <eBayPaymentStatus>NoPaymentFailure</eBayPaymentStatus>
+                <LastModifiedTime>2016-11-28T18:21:05.000Z</LastModifiedTime>
+                <PaymentMethod>PayPal</PaymentMethod>
+                <Status>Pending</Status>
+                <IntegratedMerchantCreditCardEnabled>false</IntegratedMerchantCreditCardEnabled>
+                <PaymentInstrument>CreditCard</PaymentInstrument>
+            </CheckoutStatus>
+            <ShippingDetails>
+                <SalesTax>
+                    <SalesTaxPercent>0.0</SalesTaxPercent>
+                    <SalesTaxState></SalesTaxState>
+                    <ShippingIncludedInTax>false</ShippingIncludedInTax>
+                    <SalesTaxAmount currencyID="USD">0.0</SalesTaxAmount>
+                </SalesTax>
+                <ShippingServiceOptions>
+                    <ShippingService>ShippingMethodExpress</ShippingService>
+                    <ShippingServiceCost currencyID="USD">0.0</ShippingServiceCost>
+                    <ShippingServicePriority>1</ShippingServicePriority>
+                    <ExpeditedService>false</ExpeditedService>
+                    <ShippingTimeMin>1</ShippingTimeMin>
+                    <ShippingTimeMax>3</ShippingTimeMax>
+                </ShippingServiceOptions>
+                <SellingManagerSalesRecordNumber>4168</SellingManagerSalesRecordNumber>
+                <GetItFast>false</GetItFast>
+                <ExcludeShipToLocation>Alaska/Hawaii</ExcludeShipToLocation>
+                <ExcludeShipToLocation>US Protectorates</ExcludeShipToLocation>
+                <ExcludeShipToLocation>APO/FPO</ExcludeShipToLocation>
+                <ExcludeShipToLocation>Africa</ExcludeShipToLocation>
+                <ExcludeShipToLocation>Asia</ExcludeShipToLocation>
+                <ExcludeShipToLocation>Central America and Caribbean</ExcludeShipToLocation>
+                <ExcludeShipToLocation>Europe</ExcludeShipToLocation>
+                <ExcludeShipToLocation>Middle East</ExcludeShipToLocation>
+                <ExcludeShipToLocation>North America</ExcludeShipToLocation>
+                <ExcludeShipToLocation>Oceania</ExcludeShipToLocation>
+                <ExcludeShipToLocation>Southeast Asia</ExcludeShipToLocation>
+                <ExcludeShipToLocation>South America</ExcludeShipToLocation>
+                <ExcludeShipToLocation>PO Box</ExcludeShipToLocation>
+            </ShippingDetails>
+            <CreatedTime>2016-11-27T13:50:15.000Z</CreatedTime>
+            <PaymentMethods>PayPal</PaymentMethods>
+            <SellerEmail>vallewdub@gmail.com</SellerEmail>
+            <ShippingAddress>
+                <Name>David Ford</Name>
+                <Street1>1051 Bridgeport Drive</Street1>
+                <Street2></Street2>
+                <CityName>Westfield</CityName>
+                <StateOrProvince>IN</StateOrProvince>
+                <Country>US</Country>
+                <CountryName>United States</CountryName>
+                <Phone></Phone>
+                <PostalCode>46074</PostalCode>
+                <AddressID>4508986982025</AddressID>
+                <AddressOwner>PayPal</AddressOwner>
+                <ExternalAddressID>P5MSB66BRSWR6</ExternalAddressID>
+            </ShippingAddress>
+            <ShippingServiceSelected>
+                <ShippingService>ShippingMethodExpress</ShippingService>
+                <ShippingServiceCost currencyID="USD">0.0</ShippingServiceCost>
+            </ShippingServiceSelected>
+            <Subtotal currencyID="USD">15.8</Subtotal>
+            <Total currencyID="USD">0.0</Total>
+            <TransactionArray>
+                <Transaction>
+                    <AmountPaid currencyID="USD">0.0</AmountPaid>
+                    <AdjustmentAmount currencyID="USD">-15.8</AdjustmentAmount>
+                    <ConvertedAdjustmentAmount currencyID="USD">-15.8</ConvertedAdjustmentAmount>
+                    <ConvertedAmountPaid currencyID="USD">0.0</ConvertedAmountPaid>
+                    <ConvertedTransactionPrice currencyID="USD">15.8</ConvertedTransactionPrice>
+                    <CreatedDate>2016-11-27T13:50:15.000Z</CreatedDate>
+                    <DepositType>None</DepositType>
+                    <Item>
+                        <AutoPay>false</AutoPay>
+                        <ItemID>222293262267</ItemID>
+                        <ListingType>FixedPriceItem</ListingType>
+                        <PrivateListing>false</PrivateListing>
+                        <SellingStatus>
+                            <CurrentPrice currencyID="USD">15.8</CurrentPrice>
+                            <ListingStatus>Active</ListingStatus>
+                        </SellingStatus>
+                        <GetItFast>false</GetItFast>
+                        <SKU>IF_E3943F05</SKU>
+                        <ConditionID>1000</ConditionID>
+                        <ConditionDisplayName>New</ConditionDisplayName>
+                    </Item>
+                    <QuantityPurchased>1</QuantityPurchased>
+                    <Status>
+                        <eBayPaymentStatus>NoPaymentFailure</eBayPaymentStatus>
+                        <CheckoutStatus>CheckoutIncomplete</CheckoutStatus>
+                        <LastTimeModified>2016-11-28T18:21:05.000Z</LastTimeModified>
+                        <PaymentMethodUsed>PayPal</PaymentMethodUsed>
+                        <CompleteStatus>Incomplete</CompleteStatus>
+                        <BuyerSelectedShipping>true</BuyerSelectedShipping>
+                        <PaymentHoldStatus>None</PaymentHoldStatus>
+                        <IntegratedMerchantCreditCardEnabled>false</IntegratedMerchantCreditCardEnabled>
+                        <InquiryStatus>NotApplicable</InquiryStatus>
+                        <ReturnStatus>NotApplicable</ReturnStatus>
+                    </Status>
+                    <TransactionID>1827097822012</TransactionID>
+                    <TransactionPrice currencyID="USD">15.8</TransactionPrice>
+                    <BestOfferSale>false</BestOfferSale>
+                    <ShippingServiceSelected>
+                        <ShippingPackageInfo>
+                            <EstimatedDeliveryTimeMin>2016-12-05T08:00:00.000Z</EstimatedDeliveryTimeMin>
+                            <EstimatedDeliveryTimeMax>2016-12-05T08:00:00.000Z</EstimatedDeliveryTimeMax>
+                        </ShippingPackageInfo>
+                    </ShippingServiceSelected>
+                    <TransactionSiteID>US</TransactionSiteID>
+                    <Platform>eBay</Platform>
+                    <PayPalEmailAddress>vallewdub@gmail.com</PayPalEmailAddress>
+                    <BuyerGuaranteePrice currencyID="USD">20000.0</BuyerGuaranteePrice>
+                    <OrderLineItemID>222293262267-1827097822012</OrderLineItemID>
+                    <IntangibleItem>false</IntangibleItem>
+                    <eBayPlusTransaction>false</eBayPlusTransaction>
+                </Transaction>
+            </TransactionArray>
+            <BuyerUserID>f-mceda-sy0dy6hi</BuyerUserID>
+            <IntegratedMerchantCreditCardEnabled>false</IntegratedMerchantCreditCardEnabled>
+            <PaymentHoldStatus>None</PaymentHoldStatus>
+            <IsMultiLegShipping>false</IsMultiLegShipping>
+            <SellerUserID>household_goods1</SellerUserID>
+            <SellerEIASToken>nY+sHZ2PrBmdj6wVnY+sEZ2PrA2dj6AAk4KhAJOKog2dj6x9nY+seQ==</SellerEIASToken>
+            <CancelStatus>CancelClosedWithRefund</CancelStatus>
+            <ContainseBayPlusTransaction>false</ContainseBayPlusTransaction>
+        </Order>
+    </OrderArray>
+</GetOrderTransactionsResponse>
